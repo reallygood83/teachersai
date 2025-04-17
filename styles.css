@@ -829,7 +829,7 @@ header .container {
 }
 
 .user-testimonial blockquote::before {
-    content: """;
+    content: "\201C";
     font-size: 2rem;
     color: var(--accent-color);
     position: absolute;
