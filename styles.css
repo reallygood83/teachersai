@@ -1129,4 +1129,50 @@ footer {
     .comparison-table th:first-child {
         width: auto;
     }
+}
+
+/* 상담 자동화 시스템 이미지 스타일 */
+.counsel-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.counsel-image-item {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.counsel-image-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.counsel-img {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #eee;
+}
+
+.image-caption {
+    padding: 1rem;
+    text-align: center;
+    font-weight: 600;
+    color: var(--primary-color);
+    background-color: #f9f9f9;
+}
+
+/* 반응형 조정 */
+@media (max-width: 768px) {
+    .counsel-image-item {
+        min-width: 250px;
+    }
 } 
