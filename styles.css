@@ -1175,4 +1175,56 @@ footer {
     .counsel-image-item {
         min-width: 250px;
     }
+}
+
+/* AI 툴킷 마켓플레이스 이미지 스타일 */
+.toolkit-marketplace-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.toolkit-marketplace-img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* 마켓플레이스 쇼케이스 스타일 */
+.marketplace-showcase {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.showcase-caption {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.caption-label {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--primary-color);
+}
+
+.caption-note {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.service-description ul li {
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.service-description ul li i {
+    color: var(--primary-color);
+    margin-right: 0.75rem;
+    min-width: 1.5rem;
+    text-align: center;
 } 
